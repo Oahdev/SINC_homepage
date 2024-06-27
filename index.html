@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/matterhorn" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="p-3 m-auto d-flex align-items-center justify-content-between" style="width: 90%">
+      <div class="d-flex align-items-center justify-content-between gap-4">
+        <div id="logo">
+          <img src="img/SINC LOGO-black-outline-1.png" alt="logo" />
+        </div>
+        <div id="pages" class="d-flex gap-4">
+          <a href="#">About</a>
+          <a href="#">SIP</a>
+          <a href="#">Studio</a>
+          <a href="#">SEEQ</a>
+          <a href="#">Platforms</a>
+          <a href="#">Initiatives</a>
+          <a href="#">More</a>
+        </div>
+      </div>
+      <div class="d-flex gap-3">
+        <button class="btn btn-green">SINC With Us</button>
+        <button class="btn btn-black">Apply to SIP 1.0</button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div id="hero-carousel" class="w-100 h-auto carousel slide" style="overflow-y: hidden; max-height: 70vh; background-color: #ffffff">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex justify-content-between align-items-center">
+            <div class="w-50" style="padding: 90px">
+              <h3 class="fs-3 lh-base fw-bold">SINC Partners is a service incubation company</h3>
+              <p class="fs-5 mb-4" style="color: var(--light-black)">
+                Connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange for minute equity (usually 0.5% to 2%).
+              </p>
+              <button class="btn btn-black">SINC With Us</button>
+            </div>
+            <div class="w-50">
+              <img src="img/hero-img.png" class="w-100" alt="" />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section id="quote" class="p-5 mt-5">
+      <article class="m-auto text-center">
+        <p class="fs-6">
+          "Nigeria and Africa has a massive network effect that have not be fully utilized. With Nigerians/Africans in every country and territory of the world, we can scale an African business to
+          100+ countries in few weeks"
+        </p>
+        <div class="mt-4">
+          <h6 class="fw-bold" style="font-size: small">Daniel Izeghs Oratokhai</h6>
+          <p class="fw-light" style="font-size: small" style="color: var(--light-black)">Managing Partner at SINC Partners Ltd</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- NETWORK -->
+    <section id="network" class="w-75 m-auto mt-5">
+      <h1 class="w-50 fw-bold text-center m-auto">Network of builders helping startup scale</h1>
+      <div class="mt-5 d-flex gap-5">
+        <article>
+          <h3>Work with Service Incubators to expedite your time-to-market</h3>
+          <div>
+            <p>Collaborate with our meticulously chosen service partners, each with a vested interest, ensuring a shared commitment to success in the game of venture building.</p>
+            <p>
+              For 7.5% equity, you get a product manager, product designer, frontend engineer, software engineer and growth marketer to build the MVP of your app or web application and validate it.
+            </p>
+          </div>
+          <a href="#" class="a-tag"><span> Learn More </span><img src="img/down-right.png" alt="" /> </a>
+        </article>
+        <article>
+          <h3>Access funding after your mvp is validated</h3>
+          <div>
+            <p>
+              Startups that have built and validated their product can take advantage of the financial resources of the SINC Investors Network, elevating their potential for success in the venture
+              capital landscape.
+            </p>
+            <p>Raise $5k, $25k, $50k and $125k in 4 bootstrap deals within 12 months</p>
+          </div>
+          <a href="#" class="a-tag"><span> Learn More </span><img src="img/down-right.png" alt="" /> </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOCUS -->
+    <section id="focus" class="text-center">
+      <div class="text-center m-auto" style="width: 45%; margin-bottom: 64px !important">
+        <h1 class="fw-bold">Our Area of Focus</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+          In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab
+        </p>
+      </div>
+      <div id="colors-div">
+        <div style="background-color: #303030">
+          <p>01</p>
+          <p>Business Support & Incubation</p>
+        </div>
+        <div style="background-color: #f47733">
+          <p>02</p>
+          <p>On-Demand & As-A-Service</p>
+        </div>
+        <div style="background-color: #ff78bf">
+          <p>03</p>
+          <p>Marketplace & Crowdsourcing</p>
+        </div>
+        <div style="background-color: #20888f">
+          <p>04</p>
+          <p>Aggregation & Shared Economy</p>
+        </div>
+        <div style="background-color: #ff88c6">
+          <p>05</p>
+          <p>Decentralized Economy & Digital Assets</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCEPT -->
+    <section id="concept" class="text-center">
+      <div class="w-75 m-auto">
+        <h1 class="fw-bold">Our Concept Innovations</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+          We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success;
+        </p>
+      </div>
+      <div id="concepts-div">
+        <article>
+          <h3>Service Incubator</h3>
+          <p>A service-for-shares model of incubating pre-product startups and early-stage companies by building their early stage product and MVP</p>
+        </article>
+        <article>
+          <h3>Virtualting</h3>
+          <p>
+            A resource share model that allows companies share the time of resources (employees, consultants, technical advisers or influencers) while also splitting the service cost of the resource
+          </p>
+        </article>
+        <article>
+          <h3>Diiming</h3>
+          <p>A progressive investment model that allows you to put aside income (disposable or non-disposable) as investment over a period towards an investment or spend of your choice </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section id="service">
+      <div class="m-auto w-75 text-center mb-5" style="width: 63%">
+        <h1 class="fw-bold">Our Service Incubation Model</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+          The Service Incubation model is an alternate funding model for startup that allows professionals to offer their services to startups in return for a minute equity (usually between 0.5% to
+          1.5%) in the startup. As a service incubator, you will see your share grow as much as 1000% in 12 – 24 months as been first to invest.
+        </p>
+      </div>
+      <div class="mb-5">
+        <div class="mb-5">
+          <h4 class="fw-bold">Hypothesis</h4>
+          <p class="fw-light" style="color: var(--light-black); font-size: 14px">Just a few reasons we know its time for this model within the ecosystem</p>
+        </div>
+        <div id="hypothesis-div">
+          <article>
+            <img src="img/hypothesis-tri.png" alt="" />
+            <p>Most early-stage companies and pre-product startups cannot afford professional services especially those who don’t have family and friends’ network that can support</p>
+          </article>
+          <article>
+            <img src="img/hypothesis-dia.png" alt="" />
+            <p>If startups can seed 5-10% in equity to incubators for $20k to $200k funding most times, they will be willing to seed 10% equity for a $25k service investment</p>
+          </article>
+          <article>
+            <img src="img/hypothesis-hex.png" alt="" />
+            <p>
+              Young professionals who don’t have a lot of money to invest nor an accredited investors will have opportunities to take equity at the early stage of their career, usually been the first
+              to invest and almost guaranteed of return
+            </p>
+          </article>
+        </div>
+      </div>
+      <div class="mb-5">
+        <div class="mb-5">
+          <h4 class="fw-bold">Case Study</h4>
+          <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+            See what Service Incubators get, the maths behind Service Equity (SEEQ) and what the value of your share equity can be over time
+          </p>
+        </div>
+        <div id="case-study-div">
+          <button class="btn btn-white">Service Incubator Equity</button>
+          <button class="btn btn-white">SEEQ Maths Equation</button>
+          <button class="btn btn-white">Value of my Equity Over Time</button>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="a-tag m-auto"><span> Become A Service Incubator </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="mb-5">
+        <h1 class="fw-bold">Our Studio Portfolio</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">Our 2024 Service Incubator Portfolio Companies</p>
+      </div>
+      <div class="mb-5">
+        <img class="w-100" src="img/Portfolio.png" alt="" />
+      </div>
+      <div class="text-center">
+        <a href="#" class="a-tag m-auto"><span> View All Companies </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+    </section>
+
+    <!-- FOUND -->
+    <section id="found">
+      <div class="mb-5 w-75 m-auto">
+        <h1 class="fw-bold">Co-found With Us</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed</p>
+      </div>
+      <div id="found-div">
+        <article>
+          <div id="num" style="background-color: #303030"><p>1</p></div>
+          <div>
+            <h3>We Ideate</h3>
+            <p>
+              We internally generate concepts and ideas that help solve problems in our thesis areas, after which we proceed to develop a nano/micro MVP (usually having as low as 30 functions to as
+              high as 100 functions) of the product that we take to the market.
+            </p>
+          </div>
+        </article>
+        <article>
+          <div id="num" style="background-color: #f47733"><p>2</p></div>
+          <div>
+            <h3>You Validate</h3>
+            <p>
+              You join our 3 months inResidence program as a business expert to run the operations or as a technical expert to further the development and validate the idea with an average monthly
+              revenue of $1k or 10,000 users and/or an MVP of at least 150 functions
+            </p>
+          </div>
+        </article>
+        <article>
+          <div id="num" style="background-color: #ff78bf"><p>3</p></div>
+          <div>
+            <h3>You Co-own</h3>
+            <p>
+              After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning
+              20% of the venture.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="text-center">
+        <a href="#" class="a-tag m-auto" style="color: var(--light-black)"><span> Build your dream </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <div class="mb-5 w-50 m-auto text-center">
+        <h1 class="fw-bold">Join Our Entrepreneur In Residence (EIR) Program</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+          Our EIR program is our structured 3 months un-paid program designed to help us have a pipeline of business and technical cofounders who can run the venture of choice as CEO & CTO owning
+          20% equity each.
+        </p>
+      </div>
+      <div id="process-div">
+        <article>
+          <img src="img/process-img-1.png" alt="" />
+          <div>
+            <h5>Application and Selection</h5>
+            <p>
+              Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our
+              portfolio companies. Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="img/process-img-2.png" alt="" />
+          <div>
+            <h5>Alignment Meeting and Proposal Submission</h5>
+            <p>
+              If your application stands out, we'll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the
+              needs of our portfolio companies. Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our
+              portfolio companies.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="img/process-img-3.png" alt="" />
+          <div>
+            <h5>Negotiation and Agreement</h5>
+            <p>
+              Upon successful alignment and proposal review, we'll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or
+              equity arrangements. Once terms are agreed upon, we'll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the
+              support/resources provided by SINC Partners.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="img/process-img-4.png" alt="" />
+          <div>
+            <h5>Onboarding and Integration</h5>
+            <p>
+              Congratulations! As an accepted EIR, you'll undergo an onboarding process to familiarize yourself with the SINC Partners ecosystem, our portfolio companies, and key team members.
+              Facilitated introductions will ensure a seamless integration between you and relevant portfolio companies, setting clear expectations for collaboration.
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="text-center mt-5 mb-5 m-auto">
+        <a href="#" class="a-tag m-auto" style="color: var(--light-black)"><span> Support the Future </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+      <div id="btn-div">
+        <button><i class="bi bi-arrow-left"></i></button>
+        <button><i class="bi bi-arrow-right"></i></button>
+      </div>
+    </section>
+
+    <!-- INVESTORS -->
+    <section id="investor">
+      <div class="mb-5 w-75 m-auto text-center">
+        <h1 class="fw-bold">SINC Investors Network</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">
+          Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. Our portfolio companies are valued at $50k at start, with these low valuation,
+          you are guaranteed at least 2x-5x, usually been the first to invest.
+        </p>
+        <p>
+          <span class="fw-bold">Disclaimer:</span> These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1,
+          usually the first to invest
+        </p>
+      </div>
+      <div id="investor-div">
+        <div>
+          <h5>Micro Angel Investors & Service incubators <span>(Invest from $500 & above)</span></h5>
+          <div id="investor-inner-div">
+            <article>
+              <h6>Deal 1</h6>
+              <ul>
+                <li>✓ Idea Stage:<span> $5k for 5% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $0/mth</span></li>
+                <li>✓ Duration of Raise:<span> 1mth</span></li>
+                <li>✓ Who Can Invest:<span> People with Domain Expertise and Advisors</span></li>
+              </ul>
+            </article>
+            <article>
+              <h6>Deal 2</h6>
+              <ul>
+                <li>✓ Build Stage:<span> $25k worth of service for 10% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $100+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 1-3mths</span></li>
+                <li>✓ Who Can Invest:<span> Developers, Engineers, Growth Marketers</span></li>
+              </ul>
+            </article>
+            <article>
+              <h6>Deal 3</h6>
+              <ul>
+                <li>✓ Validation Stage:<span> $50k for 5% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $1k+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 3-6mths</span></li>
+                <li>✓ Who Can Invest:<span> Everyone</span></li>
+              </ul>
+            </article>
+            <article>
+              <h6>Deal 4</h6>
+              <ul>
+                <li>✓ Traction Stage:<span> $125k worth of service for 5% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $5k+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 6-12mths</span></li>
+                <li>✓ Who Can Invest:<span> Media, Influencers, Celebrity, Platform Owners</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+        <div>
+          <h5>Angel Investors & Venture Capital <span>(Invest from $50k and above)</span></h5>
+          <div id="investor-inner-div">
+            <article>
+              <h6>Deal 5</h6>
+              <ul>
+                <li>✓ Pre-seed Stage:<span> $1.5M for 10% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $50k+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 6-18mths</span></li>
+                <li>✓ Who Can Invest:<span> Angel Investors, VCs, PE, Institutions</span></li>
+              </ul>
+            </article>
+            <article>
+              <h6>Deal 6</h6>
+              <ul>
+                <li>✓ Seed Stage:<span> $7.5M for 20% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $250k+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 12-24mths</span></li>
+                <li>✓ Who Can Invest:<span> VCs, PE, Institutions</span></li>
+              </ul>
+            </article>
+            <article>
+              <h6>Deal 7</h6>
+              <ul>
+                <li>✓ IPO Stage:<span> $1.5B for 20% Equity</span></li>
+                <li>✓ Expected Revenue at This Stage:<span> $1M+/mth</span></li>
+                <li>✓ Duration of Raise:<span> 18-36mths</span></li>
+                <li>✓ Who Can Invest:<span> The Public</span></li>
+              </ul>
+            </article>
+            <article>
+              <div>
+                <p>Work with Service Incubators (SINC) to expedite your time to market</p>
+                <button class="btn btn-black">Join SINC Network</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUITY -->
+    <section id="equity">
+      <div class="mb-5 w-75 m-auto text-center">
+        <h1 class="fw-bold">Equity jobs</h1>
+        <p class="fw-light" style="color: var(--light-black); font-size: 14px">See companies and startups offering equity or a mix of cash and equity for very important position in their company</p>
+      </div>
+      <div id="equity-div">
+        <article>
+          <div>
+            <div id="logo">
+              <img src="img/equity-logo-1.png" alt="" />
+            </div>
+            <p>This company is a SAAS Startup that builds AI copy generator...</p>
+          </div>
+          <div>
+            <h6>Chief Executive Officer</h6>
+            <div>
+              <ul>
+                <li><span>LOCATION</span><span>INDUSTRY</span></li>
+                <li><span>Abuja, Nigeria</span><span>On-demand print</span></li>
+                <li><span>EQUITY</span><span>STIPEND</span></li>
+                <li><span>1.2%</span><span>NGN 200,000/mth </span></li>
+                <li><span>DEADLINE</span><span>ROLE TYPE</span></li>
+                <li><span>24th, January 2024</span><span>Full-time</span></li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn btn-black">View Details</button>
+        </article>
+        <article>
+          <div>
+            <div id="logo">
+              <img src="img/equity-logo-2.png" alt="" />
+            </div>
+            <p>This company is a SAAS Startup that builds AI copy generator...</p>
+          </div>
+          <div>
+            <h6>UX Strategist</h6>
+            <div>
+              <ul>
+                <li><span>LOCATION</span><span>INDUSTRY</span></li>
+                <li><span>Abuja, Nigeria</span><span>E-commerce</span></li>
+                <li><span>EQUITY</span><span>STIPEND</span></li>
+                <li><span>1.2%</span><span>NGN 200,000/mth </span></li>
+                <li><span>DEADLINE</span><span>ROLE TYPE</span></li>
+                <li><span>24th, January 2024</span><span>Full-time</span></li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn btn-black">View Details</button>
+        </article>
+        <article>
+          <div>
+            <div id="logo">
+              <img src="img/equity-logo-3.png" alt="" />
+            </div>
+            <p>This company is a SAAS Startup that builds AI copy generator...</p>
+          </div>
+          <div>
+            <h6>CTO & Head of innovations</h6>
+            <div>
+              <ul>
+                <li><span>LOCATION</span><span>INDUSTRY</span></li>
+                <li><span>Abuja, Nigeria</span><span>Fintech</span></li>
+                <li><span>EQUITY</span><span>STIPEND</span></li>
+                <li><span>1.2%</span><span>NGN 200,000/mth </span></li>
+                <li><span>DEADLINE</span><span>ROLE TYPE</span></li>
+                <li><span>24th, January 2024</span><span>Full-time</span></li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn btn-black">View Details</button>
+        </article>
+        <article>
+          <div>
+            <div id="logo">
+              <img src="img/equity-logo-4.png" alt="" />
+            </div>
+            <p>This company is a SAAS Startup that builds AI copy generator...</p>
+          </div>
+          <div>
+            <h6>Backend Developer</h6>
+            <div>
+              <ul>
+                <li><span>LOCATION</span><span>INDUSTRY</span></li>
+                <li><span>Abuja, Nigeria</span><span>Transportation</span></li>
+                <li><span>EQUITY</span><span>STIPEND</span></li>
+                <li><span>1.2%</span><span>NGN 200,000/mth </span></li>
+                <li><span>DEADLINE</span><span>ROLE TYPE</span></li>
+                <li><span>24th, January 2024</span><span>Full-time</span></li>
+              </ul>
+            </div>
+          </div>
+          <button class="btn btn-black">View Details</button>
+        </article>
+      </div>
+      <div class="text-center mt-5 mb-5 m-auto">
+        <a href="#" class="a-tag m-auto" style="color: var(--light-black)"><span> See More Equity Jobs </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+    </section>
+
+    <!-- BLOG & RESOURCES-->
+    <section id="blog">
+      <div class="mb-5 w-75 m-auto text-center">
+        <h1 class="fw-bold">Blogs & Resources</h1>
+      </div>
+      <div id="blog-div">
+        <article>
+          <img src="img/blog-1.png" alt="" />
+        </article>
+        <article>
+          <img src="img/blog-2.png" alt="" />
+        </article>
+        <article>
+          <img src="img/blog-2.png" alt="" />
+        </article>
+      </div>
+      <div id="resource-div">
+        <article>
+          <div>
+            <h6>Top Ten Most Powerful Startup</h6>
+            <p>Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup</p>
+          </div>
+          <img src="img/blog-resource-1.png" alt="" />
+        </article>
+        <article>
+          <div>
+            <h6>Top Ten Most Powerful Startup</h6>
+            <p>Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup</p>
+          </div>
+          <img src="img/blog-resource-2.png" alt="" />
+        </article>
+        <article>
+          <div>
+            <h6>Top Ten Most Powerful Startup</h6>
+            <p>Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup</p>
+          </div>
+          <img src="img/blog-resource-3.png" alt="" />
+        </article>
+      </div>
+      <div class="text-center mt-5 mb-5 m-auto">
+        <a href="#" class="a-tag m-auto" style="color: var(--light-black)"><span> See More Blogs & Resources </span><img src="img/down-right.png" alt="" /> </a>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured">
+      <div class="mb-5 w-75 m-auto text-center">
+        <h5 class="fw-bold">As Featured In</h5>
+      </div>
+      <div id="featured-div">
+        <article>
+          <img src="img/featured-img-buj.png" alt="" />
+          <div id="featured-inner-div">
+            <div>
+              <div id="logo">
+                <img src="img/featured-logo-buj.png" alt="" />
+              </div>
+              <h6>SINC Partners invests over 200 million naira in 5 startups</h6>
+              <p>SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ....</p>
+            </div>
+            <p>REPORTED BY:</p>
+            <p>Rema Viel</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/featured-img-onctex.jpeg" alt="" />
+          <div id="featured-inner-div">
+            <div>
+              <div id="logo">
+                <img src="img/featured-logo-onctex.png" alt="" />
+              </div>
+              <h6>SINC Partners invests over 200 million naira in 5 startups</h6>
+              <p>SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ....</p>
+            </div>
+            <p>REPORTED BY:</p>
+            <p>Rema Viel</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/featured-img-guardian.png" alt="" />
+          <div id="featured-inner-div">
+            <div>
+              <div id="logo">
+                <img src="img/featured-logo-guardian.png" alt="" />
+              </div>
+              <h6>SINC Partners invests over 200 million naira in 5 startups</h6>
+              <p>SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ....</p>
+            </div>
+            <p>REPORTED BY:</p>
+            <p>Rema Viel</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/featured-img-punch.jpeg" alt="" />
+          <div id="featured-inner-div">
+            <div>
+              <div id="logo">
+                <img src="img/featured-logo-punch.png" alt="" />
+              </div>
+              <h6>SINC Partners invests over 200 million naira in 5 startups</h6>
+              <p>SINC Partners invests over 200 million naira in 5 startups. SINC Partners invests over 200 million naira in 5 startups SINC Partners invests over 200 million naira in ....</p>
+            </div>
+            <p>REPORTED BY:</p>
+            <p>Rema Viel</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section id="closing">
+      <h1>Let's build companies that help everyone succeed</h1>
+      <div>
+        <button class="btn btn-white">SINC With Us</button>
+        <button class="btn btn-black">Apply to SIP 1.0</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="newsletter">
+        <div>
+          <h1>Newsletter</h1>
+          <p>Get the latest about SINC Partners, our startup Incubator program, Portfolio company offerings - straight into your inbox.</p>
+        </div>
+        <div id="subscribe">
+          <input type="text" placeholder="Enter your email address" />
+          <button class="btn btn-white">Subscribe</button>
+        </div>
+      </div>
+      <div id="middle-footer-div">
+        <div id="middle-footer-div-left">
+          <div>
+            <div id="logo">
+              <img src="img/SINC-LOGO-white-outline-1.png" alt="" />
+            </div>
+            <p>
+              SINC Partners is a service incubation company connecting experts in product development and growth marketing willing to offer their services to amazing startups in exchange
+              for minute equity (usually 0.5% to 2%)
+            </p>
+          </div>
+          <ul>
+            <li>Platforms</li>
+            <li>Kofundme</li>
+            <li>InResidency</li>
+            <li>Service Market</li>
+            <li>Founders School</li>
+            <li>Metty</li>
+            <li>Grantty</li>
+            <li>Boldtell</li>
+            <li>Chekwa</li>
+          </ul>
+          <ul>
+            <li>Initiatives</li>
+            <li>Job Plains</li>
+            <li>Local Pricing Initiative</li>
+            <li>Scholarship Program</li>
+            <li>SSMN Pricing</li>
+            <li>University STEM</li>
+            <li>University InResidency</li>
+            <li>1M NIgeria <img src="img/twemoji_flag-nigeria.png" /> Products</li>
+            <li>Founders Festival</li>
+          </ul>
+          <ul>
+            <li>About Us</li>
+            <li>Who We Are</li>
+            <li>Our People</li>
+            <li>Concept Innovations</li>
+            <li>Our Process</li>
+            <li>Investors Network</li>
+            <li>CSR & Events</li>
+            <li>Career</li>
+            <li>Contact</li>
+          </ul>
+          <ul>
+            <li>More</li>
+            <li>Services</li>
+            <li>Equity Jobs</li>
+            <li>EIR Program</li>
+            <li>Offers</li>
+            <li>Innovation News</li>
+            <li>FAQ</li>
+            <li>Blog & Resources</li>
+            <li>Press</li>
+          </ul>
+        </div>
+        <div id="middle-footer-div-right">
+          <div>
+            <ul>
+              <li>Locations</li>
+              <li>Abuja, Nigeria</li>
+              <li>Lagos, Nigeria</li>
+              <li>Philadelphia, USA</li>
+            </ul>
+            <div>
+              <img src="img/Outline-ABA-1.png" alt="" />
+              <p>Trusted Business</p>
+            </div>
+          </div>
+          <div id="whatsapp-div">
+            <img src="img/whatsapp-color-svgrepo-com-1.png" alt="" />
+            <p>Chat with US</p>
+          </div>
+        </div>
+      </div>
+      <div id="lower-footer-div">
+        <div id="lower-footer-div-left">
+          <p>Guaranteed 2x on your service or cash investment, usually been the first to invest. <span>Get in early and SINC your guaranty!</span></p>
+          <div>
+            <p>2023 SINC Partners Ltd. All rights reserved</p>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms of Service</li>
+              <li>Security</li>
+            </ul>
+          </div>
+        </div>
+        <div id="lower-footer-div-right">
+          <div>
+            <img src="img/GASUS-white-1.png" alt="" />
+            <p>We are a business built on the foundation of Christian values and belief</p>
+          </div>
+          <ul>
+            <li><img src="img/Facebook-Icon.png" alt="" /></li>
+            <li><img src="img/Twitter Icon.png" alt="" /></li>
+            <li><img src="img/Instagram Icon.png" alt="" /></li>
+            <li><img src="img/linkedin-Icon.png" alt="" /></li>
+            <li><img src="img/medium-Icon.png" alt="" /></li>
+            <li><img src="img/youtube-Icon.png" alt="" /></li>
+            <li><img src="img/msg-Icon.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-auto m-auto mt-3 text-center">
+        <p>Web In Nigeria <img src="img/twemoji_flag-nigeria.png" alt="" /></p>
+      </div>
+    </footer>
+  </body>
+</html>
